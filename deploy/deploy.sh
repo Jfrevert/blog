@@ -1,0 +1,3 @@
+aws s3 cp . s3://justinfrevert.com/ --recursive --acl public-read-write
+
+# to be expanded on in the future...
