@@ -14,7 +14,7 @@ import { rhythm } from "../utils/typography"
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile-image.jpg/" }) {
         childImageSharp {
           fixed(width: 50, height: 50) {
             ...GatsbyImageSharpFixed
@@ -37,8 +37,7 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      {/* todo: resolve new image for this: */}
-      {/* <Image
+      <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
@@ -50,8 +49,9 @@ const Bio = () => {
         imgStyle={{
           borderRadius: `50%`,
         }}
-      /> */}
+      />
 
+    Justin Frevert is a software developer living in D.C. who created this blog to chronicle his days coding and learning machine learning.
     </div>
   )
 }
