@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
@@ -9,6 +9,11 @@ import { rhythm } from "../utils/typography"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+
+  useEffect(() => {
+    // get usage data; no need to handle.
+    fetch('https://q64cf7irqk.execute-api.us-east-1.amazonaws.com/Prod2/getUserInfo', { mode: 'no-cors' })
+  })
 
   return (
     <Layout location={location} title={siteTitle}>
