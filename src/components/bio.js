@@ -52,7 +52,7 @@ const Bio = () => {
         }}
       />
 
-    Justin Frevert is a software developer living in D.C. who created this blog to chronicle his days coding and learning machine learning.
+    Justin Frevert is a software developer living in D.C. who created this blog to chronicle his days coding and learning machine learning. Currently taking Prof Andrew Ng's Machine Learning course on Coursera.
     </div>
   )
 }
