@@ -27,7 +27,7 @@ grad = (1/m)*X'*(hypothesis - y);
 ```
 Where J is the cost we're looking for. My understanding of "cost" so far is that that's what we'll use to penalize our model in case of errors and is useful to the practitioner as the error rate can give a sense of the performance of the model.
 
-I'm pretty excited for those next portions of the exercises tho. The name of the exercise is 'predict.m', I can only guess for what's involved 😊😭.
+I'm pretty excited for those next portions of the exercises tho. The name of the exercise is 'predict.m', I can only guess what's involved 😊😭.
 
 One reason I'm excited is because, speaking of single-class classification and prediction - I've come up with an idea for a project ("uh oh").
 
