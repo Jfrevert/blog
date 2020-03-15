@@ -1,10 +1,10 @@
 ---
 title: 😕
 date: "2020-03-01T16:20:32.169Z"
-description: Well. My progress with my self-learning curriculum slowed to a crawl this past month. I continuued with Andrew Ng's machine learning course, but think I logged into Coursera maybe three times throughout the month.  
+description: Well. My progress with my self-learning curriculum slowed to a crawl this past month. I continued with Andrew Ng's machine learning course, but think I logged into Coursera maybe three times throughout the month.  
 ---
 
-Well. My progress with my self-learning curriculum slowed to a crawl this past month. I continuued with Andrew Ng's machine learning course, but think I logged into Coursera maybe three times throughout the month.  
+Well. My progress with my self-learning curriculum slowed to a crawl this past month. I continued with Andrew Ng's machine learning course, but think I logged into Coursera maybe three times throughout the month.  
 
 I only made significant progress today, the first of March. Today, Andrew started going over feature scaling and mean normalization. A lot of it didn't totally make sense until some more context was added with a real-estate example. 
 

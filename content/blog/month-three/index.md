@@ -28,6 +28,17 @@ grad = (1/m)*X'*(hypothesis - y);
 Where J is the cost we're looking for. My understanding of "cost" so far is that that's what we'll use to penalize our model in case of errors and is useful to the practitioner as the error rate can give a sense of the performance of the model.
 
 I'm pretty excited for those next portions of the exercises tho. The name of the exercise is 'predict.m', I can only guess what's involved 😊😭.
+##### Editor's note:
+I started working on the prediction exercise about 2 hours after writing this. Despite my expectations, it wasn't too bad. One part of the tutorial said this:
+> This is logistic regression, so the hypothesis is the sigmoid of the product of X and theta.
+>Logistic prediction when there are only two classes uses a threshold of >= 0.5 to represent 1's and < 0.5 to represent a 0.
+
+So, after a few minutes of puzzling, I was able to get this together:
+```
+p = sigmoid(X * theta)
+p = (p  >= 0.5)
+```
+Here we're not given *y*, as we're trying to predict the output. For the second line, Octave will spit out 1 or 0 for t/f, so we just need to return p as that value. Right now, we're only predicting one class, so not sure how complicated this gets when we're trying to predict like 4 or so classes.
 
 One reason I'm excited is because, speaking of single-class classification and prediction - I've come up with an idea for a project ("uh oh").
 
