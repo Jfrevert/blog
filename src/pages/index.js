@@ -4,7 +4,12 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Hero } from "../components/Hero"
 import { rhythm } from "../utils/typography"
+
+import {
+  Box
+} from 'rebass'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -16,8 +21,16 @@ const BlogIndex = ({ data, location }) => {
   })
 
   return (
+    <>
+    <Hero />
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
+
+      <Box>
+        foobar
+        </Box>
+      
+      
       <Bio />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -46,6 +59,7 @@ const BlogIndex = ({ data, location }) => {
         )
       })}
     </Layout>
+    </>
   )
 }
 
