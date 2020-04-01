@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Linear Sessions`,
+    title: `Unsupervised Learning`,
     author: `Justin Frevert`,
     description: `Welcome to my blog`,
     siteUrl: `https://justinfrevert/`,
